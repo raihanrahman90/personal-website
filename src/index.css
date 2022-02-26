@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: 'Nexa';
+  src: local('Nexa'), url(./fonts/Nexa/Commercial/Nexa_V2_2020/TTF/NexaDemo-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family:'Alexsa';
+  src: local('Alexsa'), url(./fonts/Alexsa.ttf) format('ttf');
+}
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
